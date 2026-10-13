@@ -10,3 +10,16 @@
 注意：测试时，会遇到开头声音断续的问题，这就是windows静音机制的一个问题，也是苹果在AppleTV中加入Continuous Audio Connection设计的原因，
 
 可以尝试使用SoundKeeper，比如在windows的启动项里放入并改名为SoundKeeperSineF10A5.exe。
+
+--------------------------
+A Dolby MAT format signal generator designed specifically for Windows, rather than traditional channel test tracks.
+
+Object-based 7.1.4 channel testing. Requires Dolby Access to be installed and an HDMI connection (direct pass-through, eARC forwarding, or splitter forwarding are all acceptable). A TV/audio system that supports Dolby MAT must be set as the default audio device, and the output format must be set to Dolby Atmos for Home Theater.
+
+The default test tone is a 440 Hz sine wave generator, and the frequency is adjustable. You can also use WAV files; a 12-second test WAV is included. If you need realistic sound reproduction, you can use it for testing. The program has no stop button; just close it.
+
+However, no matter what you choose, the LFE channel test uses only the sine wave.
+
+Note: During testing, you may encounter audio cutting in and out at the beginning. This is an issue with Windows' audio-silence mechanism, and it is also why Apple added the Continuous Audio Connection design to Apple TV.
+
+You can try using SoundKeeper, for example by placing it in the Windows startup items and renaming it to SoundKeeperSineF10A5.exe.
